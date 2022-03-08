@@ -1,0 +1,48 @@
+.containerCadastro{
+    width: 80%;
+    margin: 0 auto;
+}
+.descricaoCadastro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerInput{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 1em;
+    height: 30px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+select{
+    width: 25%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.btnCriar{
+    background-color: orange;
+    color: white;
+    border: solid 1px;
+    border-color: orange;
+    border-radius: 5px;
+    width: 80px;
+    cursor:pointer;
+    height: 35px;
+    margin-right: 30px;
+}
+.btnVoltar{
+    text-decoration: none;
+    background-color: white;
+    color: orange;
+    border: solid 1px;
+    border-color: orange;
+    border-radius: 5px;
+    padding-inline: 25px;
+    padding-block: 8px;
+    cursor:pointer;
+    height: 35px;
+}

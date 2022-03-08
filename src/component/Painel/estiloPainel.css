@@ -1,0 +1,12 @@
+.containerPainel{
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.avatar{
+    width: 30px;
+}
+.painel{
+    display: flex;
+}

@@ -1,0 +1,64 @@
+.linkCadastro{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    width: 8em;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.containerInicio{
+    width: 80%;
+}
+.listagem{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.containerCard{
+    width: 80%;
+    margin: 30px auto 30px auto;    
+}
+.Card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid 1px ;
+    border-color: lightgray;
+    margin-bottom: 15px;
+}
+p{
+    color: #8f8c8c;
+    font: 1em;
+}
+.info1{
+    width: 30%;
+}
+.info2{
+    width: 30%;
+}
+.excluir{
+    background-color: white;
+    color: orange;
+    border: solid 1px;
+    border-color: orange;
+    border-radius: 5px;
+    width: 80px;
+    cursor:pointer;
+}
+@media only screen and (max-device-width: 400px) {
+     .Card {
+        width:300px;
+        display: block;
+        justify-content: baseline;
+     } 
+     .info1{
+         width: 200px;
+     }
+     .info2{
+        width: 200px;
+     }
+    }
